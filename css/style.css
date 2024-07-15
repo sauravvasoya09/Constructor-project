@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600;800&family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* heebo-300 - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 300;
+     src: url('../fonts/heebo-v21-latin-300.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/heebo-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/heebo-v21-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/heebo-v21-latin-300.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/heebo-v21-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/heebo-v21-latin-300.svg#Heebo') format('svg'); /* Legacy iOS */
+   }
+   /* heebo-regular - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/heebo-v21-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/heebo-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/heebo-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/heebo-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/heebo-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/heebo-v21-latin-regular.svg#Heebo') format('svg'); /* Legacy iOS */
+   }
+   /* heebo-600 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 600;
+     src: url('../fonts/heebo-v21-latin-600.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/heebo-v21-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/heebo-v21-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/heebo-v21-latin-600.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/heebo-v21-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/heebo-v21-latin-600.svg#Heebo') format('svg'); /* Legacy iOS */
+   }
+   /* heebo-700 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 700;
+     src: url('../fonts/heebo-v21-latin-700.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/heebo-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/heebo-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/heebo-v21-latin-700.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/heebo-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/heebo-v21-latin-700.svg#Heebo') format('svg'); /* Legacy iOS */
+   }
+   /* heebo-800 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 800;
+     src: url('../fonts/heebo-v21-latin-800.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/heebo-v21-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/heebo-v21-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/heebo-v21-latin-800.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/heebo-v21-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/heebo-v21-latin-800.svg#Heebo') format('svg'); /* Legacy iOS */
+   }
+
+   /* inter-300 - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 300;
+     src: url('../fonts/inter-v12-latin-300.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/inter-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/inter-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/inter-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/inter-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/inter-v12-latin-300.svg#Inter') format('svg'); /* Legacy iOS */
+   }
+   /* inter-regular - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+   }
+   /* inter-500 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     src: url('../fonts/inter-v12-latin-500.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/inter-v12-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/inter-v12-latin-500.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/inter-v12-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/inter-v12-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
+   }
+   /* inter-600 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     src: url('../fonts/inter-v12-latin-600.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/inter-v12-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/inter-v12-latin-600.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/inter-v12-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/inter-v12-latin-600.svg#Inter') format('svg'); /* Legacy iOS */
+   }
+   /* inter-800 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 800;
+     src: url('../fonts/inter-v12-latin-800.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/inter-v12-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/inter-v12-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/inter-v12-latin-800.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/inter-v12-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/inter-v12-latin-800.svg#Inter') format('svg'); /* Legacy iOS */
+   }
+
+:root{
+     --bggreen:#00B98E;
+     --bgdark:#0E2E50;
+     --bglight:#1ac099;
+}
+body{
+     font-family: 'heebo',sans-serif;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #666565;
+     background-color: #EFFDF5;
+}
+.row{
+     margin: 0 !important;
+     padding: 0 !important;
+}
+ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+a{
+     text-decoration: none;
+}
+.text-primary{
+     color: var(--bggreen) !important;
+}
+.text-dark{
+     color: var(--bgdark) !important;
+}
+.btn-primary{
+     background-color: var(--bggreen);
+     border-color: var(--bglight);
+}
+.btn-primary:hover{
+     background-color: var(--bglight);
+     border-color: var(--bglight);
+}
+.btn-primary:active{
+     background-color: var(--bglight) !important;
+     border-color: var(--bglight) !important;
+}
+.btn-primary:focus{
+     background-color: var(--bggreen);
+     border-color: var(--bglight);
+     box-shadow: 0 0 0 0.25rem rgba(0,157,121,0.5);
+}
+.btn-blue{
+     background-color: var(--bgdark);
+     color: #fff;
+}
+.btn-blue:hover{
+     background-color: #0c2744;
+     color: #fff;
+}
+.text_blue{
+     color: var(--bgdark);
+}
+.bg_blue{
+     background-color: var(--bgdark);
+}
+.text-green{
+     color: var(--bggreen);
+}
+.bg_light{
+     background-color: #EFFDF5;
+}
+.bg_green{
+     background-color: var(--bggreen);
+}
+.border-top{
+     border-top: 1px dashed var(--bggreen) !important;
+}
+.border-end{
+     border-right: 1px dashed var(--bggreen) !important;
+}
+.bord{
+     border: 1px dashed var(--bggreen) !important;
+}
+.sec-form .form-control::placeholder{
+     color: #000 !important;
+}
+.form-control{
+     color: #7b828a !important;
+}
+
+/* -------------------scroll up btn------------------- */
+#scroll_top:active{
+     background-color: var(--bggreen);
+     border-color: var(--bggreen);
+}
+.btn .btn-primary:focus{
+     background-color: var(--bggreen);
+     border-color: var(--bggreen);
+     box-shadow: 0 0 0 0.25rem rgba(5,159,173,0.5);
+}
+
+#scroll_top{
+     height: 50px;
+     width: 50px;
+     background-color: var(--bggreen);
+     opacity: 0;
+     transition: 1.2s;
+     bottom: 20px;
+     right: 20px;
+     position: fixed;
+}
+#scroll_top:hover{
+     background: var(--bglight);
+}
+
+/* ================================================
+          header
+================================================ */
+
+/* -----------------nav---------------- */
+
+header {
+     padding: 10px 16px;
+     color: #f1f1f1;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     z-index: 999;
+}
+.content {
+     padding: 16px;
+}
+.sticky {
+     position: fixed;
+     top: 0;
+     right: 0;
+     width: 100%;
+     z-index: 999;
+     transition: .3s;
+     animation: stick .5s;
+     
+     box-shadow: 1px 2px 15px grey;
+}
+@keyframes stick
+{
+     from{
+          transform: translateY(-100%);
+     }
+     to{
+          transform: translateY(0);
+     }
+}
+.sticky + .content {
+     padding-top: 102px;
+     transition: .3s;
+}
+.main-menu > li{
+     position: relative;
+}
+.main-menu > li > a{
+     padding: 25px 0;
+     color: var(--bgdark);
+     font-weight: 600;
+}
+.main-menu > li:first-child > a{
+     padding-left: 0 !important;
+}
+.main-menu li a.active,.main-menu li:hover > a{
+     color: var(--bggreen);
+}
+.sub-menu{
+     position: absolute;
+     top: 180%;
+     left: 0;
+     width: 160px;
+     padding: 10px 0;
+     font-weight: 400;
+     box-shadow: 0px 3px 3px rgba(0, 0, 0, .2);
+     display: none;
+     background-color: #fff;
+     transition: .5s;
+     z-index: 999;
+}
+.sub-menu li a{
+     display: block;
+     padding: 5px 20px;
+}
+.sub-menu li:hover > a{
+     background-color: #eee;
+}
+.main-menu li:hover .sub-menu{
+     display: block;
+}
+.button{
+     background-color: var(--bgblue);
+     padding: 24px 48px;
+}
+.tablate-menu, .menu-icon{
+     display: none;
+}
+.navbar-light .navbar-nav .nav-link.active {
+     color: var(--bgblue);
+}
+.icon{
+     height: 50px;
+     width: 50px;
+     display: inline-flex;
+     background: #FFFFFF !important;
+     border-radius: 50px;
+     border: 1px dashed var(--bggreen) !important;
+}
+.main-nav{
+     padding-top: 20px ;
+}
+/* -------------------main slider------------- */
+#main-sli.owl-carousel .owl-nav button.owl-prev,
+#main-sli.owl-carousel .owl-nav button.owl-next{
+     background-color: var(--bggreen);
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     font-size: 30px;
+     color: #fff;
+     position: absolute;
+     left: -28px;
+}
+#main-sli.owl-carousel .owl-nav button.owl-prev{
+     top: 40%;
+}
+#main-sli.owl-carousel .owl-nav button.owl-next{
+     top: 50%;
+}
+#main-sli.owl-carousel .owl-nav button.owl-prev:hover,
+#main-sli.owl-carousel .owl-nav button.owl-next:hover{
+     background-color: var(--bgdark);
+}
+#main-sli.owl-theme .owl-nav {
+    margin-top: 0px !important;
+}
+
+/* ----------------------catogary----------- */
+.cat-item div{
+     border: 1px dashed rgba(0, 185, 142, .3);
+     transition: .5s;
+}
+.pro-icon{
+     height: 70px;
+     width: 70px;
+     display: inline-flex;
+     border: 1px dashed var(--bggreen) !important;
+}
+.pro-box:hover{
+     background-color: var(--bggreen) !important;
+}
+.pro-box:hover .h6{
+     color: #fff;
+}
+
+/* ---------------about------------- */
+.about-img::before{
+     position: absolute;
+     content: "";
+     top: 0;
+     left: -50%;
+     width: 100%;
+     height: 100%;
+     background: var(--bggreen);
+     transform: skew(20deg);
+     z-index: 1;
+}
+
+/* -------------property list-------------- */
+
+.nav-item a:hover{
+     color: #fff;
+     background-color: var(--bggreen) !important;
+}
+.nav-item a{
+     border: 1px solid var(--bggreen);
+}
+.pro-item{
+     box-shadow: 0px 0px 30px rgba(0, 0, 0, .08);
+}
+.pro-txt:hover{
+     color: var(--bggreen);
+}
+.pro-item img{
+     transition: .3s;
+}
+.pro-item:hover img{
+     transform: scale(1.1);
+}
+
+/* ------------------------team------------------ */
+.team-item {
+     transition: .5s;
+}
+.team-item .btn{
+     box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+}
+.btn-square{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+}
+.btn-square:hover{
+     background-color: var(--bggreen) !important;
+     color: #fff;
+}
+/* ---------------------testimonial slider--------------- */
+.testi-img img{
+     height: 45px;
+     width: 45px !important;
+}
+#testimonial-sli.owl-carousel .owl-nav button.owl-prev,
+#testimonial-sli.owl-carousel .owl-nav button.owl-next{
+     height: 30px;
+     width: 30px;
+     background-color: var(--bggreen);
+     color: #fff;
+}
+
+/* ----------------footer----------------- */
+
+.foot-icon:hover{
+     color: var(--bggreen) !important;
+     background-color: #fff !important;
+}
+.text-white-50,
+.footer .btn.btn-link a{
+     color: rgba(255,255,255,0.5) !important;
+}
+.footer-img img{
+     border: 4px solid #fff;
+}
+.footer .btn.btn-link {
+     transition: .3s;
+     text-decoration: none;
+}
+.footer .btn.btn-link:hover {
+     letter-spacing: 1px;
+     box-shadow: none;
+}
+.footer .form-control{
+     border-color: rgba(255,255,255,0.5);
+}
+.bg-transparent {
+     background-color: rgba(0,0,0,0) !important;
+}
+input::placeholder,
+.foot-txt{
+     color:  rgba(255,255,255,0.5) !important;
+}
+.border_top{
+     border-top: 1px solid rgba(255, 255, 255, 0.153) !important;
+}
+.footer .footer-menu a {
+     border-right: 1px solid rgba(255, 255, 255, .1);
+     color: var(--bgwhite);
+}
+/* ===================== about page ======================= */
+.detail a{
+     color: #00B98E;
+}
+.detail a::after{
+     content: '/';
+     padding: 4px;
+     color: #c5c5c5;
+}
+
+/* =======================contact page==================== */
+.contact-sec-1{
+     border: 1px dashed rgba(0, 185, 142, .3);
+}
+.contact-icon{
+     width: 45px;
+     height: 45px;
+     padding: 15px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     color: #00B98E;
+     border-radius: 50px;
+     border: 1px dashed #00B98E;
+}
+#message{
+     height: 150px;
+}
+.form-control:focus{
+     border: 1px solid #00B98E;
+     box-shadow: none;
+}
